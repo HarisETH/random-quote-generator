@@ -1,0 +1,25 @@
+.app{
+  background-image: url(https://images.pexels.com/photos/7135117/pexels-photo-7135117.jpeg?auto=compress&cs=tinysrgb&lazy=load);
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+.glass{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 4rem;
+margin: 1rem 2.5rem;
+text-align: center;
+max-width: 60%;
+}
